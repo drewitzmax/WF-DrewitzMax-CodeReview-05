@@ -1,0 +1,110 @@
+var persons = [{
+    "id" : 0,
+    "name" : "Kirito",
+    "profilePic" : "./img/kirito.jpg",
+    "quote" : "Black is my favourite color.",
+    "gender":"male",
+    "hobbies":["programming","gaming","sword-fighting"],
+    "age": "16",
+    "likes" : 0
+},{
+    "id" : 1,
+    "name" : "Asuna",
+    "profilePic" : "./img/asuna.jpg",
+    "quote" : "I'm the strongest woman in SAO",
+    "gender":"female",
+    "hobbies":["coocking","traveling","gaming"],
+    "age": "17",
+    "likes" : 0
+},{
+    "id" : 2,
+    "name" : "Holo",
+    "profilePic" : "./img/holo.jpg",
+    "quote" : "nature is my home",
+    "gender":"female",
+    "hobbies":["eating","complaining","sleeping"],
+    "age": "99",
+    "likes" : 0
+},{
+    "id" : 3,
+    "name" : "Mononoke",
+    "profilePic" : "./img/mononoke.jpg",
+    "quote" : "I want her blood!",
+    "gender":"female",
+    "hobbies":["hunting","activism","wolfriding"],
+    "age": "20",
+    "likes" : 0
+},{
+    "id" : 4,
+    "name" : "L",
+    "profilePic" : "./img/l.jpg",
+    "quote" : "I'm paranoid",
+    "gender":"male",
+    "hobbies":["mystreiousness","detective","brawling"],
+    "age": "15"
+},{
+    "id" : 5,
+    "name" : "Rintarou",
+    "profilePic" : "./img/rintaro.jpg",
+    "quote" : "I am a mad scientisto",
+    "gender":"male",
+    "hobbies":["inventing","role-palying","time-travelling"],
+    "age": "20",
+    "likes" : 0
+},{
+    "id" : 6,
+    "name" : "Kurisu",
+    "profilePic" : "./img/kurisu.jpg",
+    "quote" : "You're annoying",
+    "gender":"female",
+    "hobbies":["research","time-travelling"],
+    "age": "19",
+    "likes" : 0
+},{
+    "id" : 7,
+    "name" : "Kousei",
+    "profilePic" : "./img/kousei.jpg",
+    "quote" : "Did i reach her now?",
+    "gender":"male",
+    "hobbies":["piano","music","cats"],
+    "age": "14",
+    "likes" : 0
+},{
+    "id" : 8,
+    "name" : "Kaori",
+    "profilePic" : "./img/kaori.jpg",
+    "quote" : "I'll kill you",
+    "gender":"female",
+    "hobbies":["violin","music","eating"],
+    "age": "14",
+    "likes" : 0
+},
+{
+    "id" : 9,
+    "name" : "Chise",
+    "profilePic" : "./img/chise.jpg",
+    "quote" : "Was i worth saving?",
+    "gender":"female",
+    "hobbies":["learning","casting","careing"],
+    "age": "17",
+    "likes" : 0
+},{
+    "id" : 10,
+    "name" : "Elias",
+    "profilePic" : "./img/elias.jpg",
+    "quote" : "you are precious",
+    "gender":"male",
+    "hobbies":["travelling","helping","teaching"],
+    "age": "99",
+    "likes" : 0
+},{
+    "id" : 11,
+    "name" : "Alucard",
+    "profilePic" : "./img/alucard.png",
+    "quote" : "Unworthy Creature",
+    "gender":"male",
+    "hobbies":["killing"],
+    "age": "20",
+    "likes" : 0
+},
+];
