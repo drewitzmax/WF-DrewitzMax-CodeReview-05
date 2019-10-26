@@ -52,7 +52,7 @@ function createCard(person) {
     let card = document.createElement("div");
     let picContainer = document.createElement("div");
     let profilePic = document.createElement("img");
-    let profilePicLike = document.createElement("span");
+    let profilePicLike = document.createElement("div");
     let cardBody = document.createElement("div");
     let name = document.createElement("h4");
     let cardText = document.createElement("p");
@@ -81,7 +81,7 @@ function createCard(person) {
     name.textContent = person.name;
     cardText.textContent = person.quote;
     /*favouriteButton.textContent = "add to favourites";*/
-    profilePicLike.textContent = "恋";
+    profilePicLike.textContent = "❤";
 
     profilePicLike.addEventListener("click", function () {
         if (profilePicLike.classList.contains("like")) {
@@ -118,7 +118,7 @@ function createCardExtended(id) {
     let card = document.createElement("div");
     let picContainer = document.createElement("div");
     let profilePic = document.createElement("img");
-    let profilePicLike = document.createElement("span");
+    let profilePicLike = document.createElement("div");
     let cardBody = document.createElement("div");
     let name = document.createElement("h4");
     let cardText = document.createElement("div");
@@ -153,7 +153,7 @@ function createCardExtended(id) {
     }
     cardText.textContent = persons[id].quote;
     /*favouriteButton.textContent = "add to favourites";*/
-    profilePicLike.textContent = "恋";
+    profilePicLike.textContent = "❤";
     ageSpan.innerHTML = "<h5>Age: </h5>" + persons[id].age
     genderSpan.innerHTML = "<h5>Gender: </h5>" + persons[id].gender
 

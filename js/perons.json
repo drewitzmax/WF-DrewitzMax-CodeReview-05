@@ -23,7 +23,7 @@ var persons = [{
     "quote" : "nature is my home",
     "gender":"female",
     "hobbies":["eating","complaining","sleeping"],
-    "age": "99",
+    "age": "600",
     "likes" : 0
 },{
     "id" : 3,
@@ -41,7 +41,8 @@ var persons = [{
     "quote" : "I'm paranoid",
     "gender":"male",
     "hobbies":["mystreiousness","detective","brawling"],
-    "age": "15"
+    "age": "15",
+    "likes": 0
 },{
     "id" : 5,
     "name" : "Rintarou",
@@ -95,7 +96,7 @@ var persons = [{
     "quote" : "you are precious",
     "gender":"male",
     "hobbies":["travelling","helping","teaching"],
-    "age": "99",
+    "age": "1000",
     "likes" : 0
 },{
     "id" : 11,
@@ -104,7 +105,45 @@ var persons = [{
     "quote" : "Unworthy Creature",
     "gender":"male",
     "hobbies":["killing"],
-    "age": "20",
+    "age": "300",
+    "likes" : 0
+},
+{
+    "id" : 12,
+    "name" : "Erina",
+    "profilePic" : "./img/erina.jpg",
+    "quote" : "Make me something delicious",
+    "gender":"female",
+    "hobbies":["cooking","tasting","reading"],
+    "age": "15",
+    "likes" : 0
+},{
+    "id" : 13,
+    "name" : "Souma",
+    "profilePic" : "./img/souma.jpg",
+    "quote" : "Unworthy Creature",
+    "gender":"male",
+    "hobbies":["duelling","cooking"],
+    "age": "15",
+    "likes" : 0
+},
+{
+    "id" : 14,
+    "name" : "Kaito",
+    "profilePic" : "./img/kaito.jpg",
+    "quote" : "Let's make a film",
+    "gender":"male",
+    "hobbies":["filming","travelling"],
+    "age": "14",
+    "likes" : 0
+},{
+    "id" : 15,
+    "name" : "Ichika",
+    "profilePic" : "./img/ichika.jpg",
+    "quote" : "",
+    "gender":"female",
+    "hobbies":["space-travelling","acting"],
+    "age": "120",
     "likes" : 0
 },
 ];
